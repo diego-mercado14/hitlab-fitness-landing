@@ -6,4 +6,6 @@ Las fotografías y los videos de `public/media/` se proporcionaron para esta lan
 
 El SVG `logo-provisional.svg` y el favicon son trazos provisionales basados en un fotograma del material proporcionado. La marca HitLab pertenece a su titular. La reconstrucción requiere validación del cliente antes de tratarse como logotipo definitivo.
 
+Las tipografías Barlow Condensed y DM Sans se distribuyen bajo la SIL Open Font License 1.1. Sus avisos y licencias se conservan en `public/font-licenses/`. Esta licencia es independiente de los derechos del código y del material multimedia de HitLab.
+
 Si se decide conceder una licencia pública para el código, añade un archivo `LICENSE` específico. La licencia del código debe indicar expresamente que **no** cubre fotos, videos, miniaturas, imagen social ni marcas.

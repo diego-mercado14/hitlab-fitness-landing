@@ -11,6 +11,7 @@ Landing comercial de una sola página para presentar HitLab y convertir consulta
 - React + Vite + TypeScript para los componentes y el build.
 - Tailwind CSS 4 como base de estilos y CSS de marca en `src/styles.css`.
 - Swiper para las galerías táctiles, con controles y mensajes accesibles en español.
+- Barlow Condensed y DM Sans se sirven desde los assets del build de GitHub Pages.
 - Datos de contacto, ubicación y rutas de medios editables en `src/content.ts`.
 
 ```text
@@ -83,7 +84,7 @@ Cada push a `main` ejecuta `.github/workflows/deploy.yml`: instala con `npm ci`,
 2. Revisa los cambios y haz push a `main`.
 3. Comprueba el workflow y la URL pública, incluidos mapa, WhatsApp, fotos y videos.
 
-No se necesitan variables de entorno ni secretos para compilar. `node_modules/`, `dist/`, archivos temporales y `.env` están excluidos por `.gitignore`.
+No se necesitan variables de entorno ni secretos para compilar. `node_modules/`, `dist/`, archivos temporales y `.env` están excluidos por `.gitignore`. Las licencias de las tipografías están en `public/font-licenses/`.
 
 ## Controles para cambios futuros
 
