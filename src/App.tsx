@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ArrowDown, ArrowRight, ArrowUpRight, InstagramLogo, List, MapPin, Phone, WhatsappLogo, X } from '@phosphor-icons/react';
+import { ArrowDown, ArrowRight, ArrowUpRight, InstagramLogo, List, MapPin, Phone, Star, WhatsappLogo, X } from '@phosphor-icons/react';
 import { Brand } from './components/Brand';
 import { WhatsAppLink } from './components/WhatsAppLink';
 import { SectionHeading } from './components/SectionHeading';
@@ -173,7 +173,10 @@ export default function App() {
       <Header />
       <main id="contenido"><Hero /><About /><Classes /><Gallery /><Reviews /><Location /><FinalCTA /></main>
       <Footer />
-      <a className="floating-whatsapp" href={business.whatsapp} target="_blank" rel="noopener noreferrer" aria-label="Contactar a HitLab por WhatsApp"><WhatsappLogo size={27} weight="fill" /></a>
+      <nav className="floating-actions" aria-label="Acciones rápidas">
+        <a className="floating-review" href="https://search.google.com/local/writereview?placeid=ChIJGbPgIACtKIQRbX7Uc2LAjzc" target="_blank" rel="noopener noreferrer" aria-label="Dejar una reseña en Google (se abre en una nueva pestaña)" title="Dejar una reseña en Google"><Star size={20} weight="fill" aria-hidden="true" /><span>Dejar una reseña</span></a>
+        <a className="floating-whatsapp" href={business.whatsapp} target="_blank" rel="noopener noreferrer" aria-label="Contactar a HitLab por WhatsApp"><WhatsappLogo size={27} weight="fill" aria-hidden="true" /></a>
+      </nav>
     </>
   );
 }
